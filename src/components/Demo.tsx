@@ -1,8 +1,8 @@
 import React from "react";
 
-import { copy, linkIcon, loader, tick } from "../assets";
+import { linkIcon } from "../assets";
 
-const Demo = () => {
+const Demo: React.FC = () => {
   return (
     <section className="mt-16 w-full max-w-xl">
       {/* Search */}
